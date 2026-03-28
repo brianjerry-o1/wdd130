@@ -1,0 +1,76 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0d0d0; /* Light grey background for the whole page */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center everything in a 400px column */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #e0e0e0; /* Slightly darker grey for the inner container */
+    border: 1px solid #bbb;
+}
+
+/* The Dark Brown Header */
+header h1 {
+    background-color: #5d4e46; /* Dark brown color */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* The Temple Name */
+main h2 {
+    text-align: center;
+    color: #333;
+    margin: 15px 0;
+}
+
+/* The Temple Image */
+.main-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* The White Cards */
+.card {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+/* The Footer */
+footer {
+    background-color: #5d4e46;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
