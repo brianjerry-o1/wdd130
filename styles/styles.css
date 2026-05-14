@@ -31,6 +31,12 @@ main img {
     width: 150px;
     height: auto;
     display: block;
+    border: 2px solid #333333;
+    /* Adds a solid border */
+    padding: 10px;
+    /* Adds space between the image and the border */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    /* Adds a subtle shadow effect */
 }
 
 aside {
@@ -38,14 +44,15 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;
+    background-color: #d6cece;
     color: #333;
     text-align: center;
 }
 
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
+
 }
 
 p {
